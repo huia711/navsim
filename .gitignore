@@ -27,3 +27,19 @@ dataset
 
 # running scripts
 scripts_dev/*
+
+# Large data directories
+sensor_blobs/
+test_sensor_blobs/
+maps/
+navsim_logs/
+test_navsim_logs/
+test_navsim_logs_mini/
+
+# External dependencies
+nuplan-devkit/
+
+# Model checkpoints
+*.pth
+*.ckpt
+*.pt
